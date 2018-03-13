@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="#aeaaaa"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/grupo1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <RadioButton
+            android:id="@+id/idperu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Peru" />
+
+        <RadioButton
+            android:id="@+id/idbrasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Brasil" />
+
+        <RadioButton
+            android:id="@+id/idalemania"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alemania" />
+
+        <RadioButton
+            android:id="@+id/ideeuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EEUU" />
+    </RadioGroup>
+    <!-- para poner un comentario,
+         varias lineas
+     -->
+</RelativeLayout>
